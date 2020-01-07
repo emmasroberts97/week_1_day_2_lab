@@ -95,7 +95,7 @@ end
 
 def volume_of_sphere(radius)
   pi = 3.14
-  return pi * (4.0/3.0) * radius
+  return pi * (4.0/3.0) * (radius**3)
 end
 
 def volume_of_cube(edge)
