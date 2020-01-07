@@ -97,9 +97,9 @@ class FunctionsTest < MiniTest::Test
     #add test code here
     #arrange
     #act
-    sphere_volume = volume_of_sphere(5)
+    sphere_volume = volume_of_sphere(1)
     #assert
-    assert_equal(125, sphere_volume)
+    assert_equal(4.1866666666666665, sphere_volume)
 
   end
 
@@ -112,7 +112,7 @@ class FunctionsTest < MiniTest::Test
     celsius_test = fahrenheit_to_celsius(77)
     #assert
     assert_equal(25, celsius_test)
-    
+
   end
 
 

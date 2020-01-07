@@ -94,7 +94,8 @@ def return_10()
 end
 
 def volume_of_sphere(radius)
-  return radius ** 3
+  pi = 3.14
+  return pi * (4.0/3.0) * radius
 end
 
 def volume_of_cube(edge)
@@ -103,4 +104,4 @@ end
 
 def fahrenheit_to_celsius(fahrenheit)
   return (fahrenheit - 32) * 5 / 9
-end 
+end
